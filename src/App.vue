@@ -37,7 +37,10 @@
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-8 ">
             <div>
               <div class="svg">
-                <embed class="m-auto md:72 lg:w-80 xl:96" src="./assets/svg/1.svg">
+<!--                <inline-svg class="m-auto md:72 lg:w-80 xl:96" src="/src/assets/svg/1.svg"/>-->
+<!--                <inline-svg class="m-auto md:72 lg:w-80 xl:96" :src="require('../assets/svg/2.svg')"/>x-->
+<!--                <embed class="m-auto md:72 lg:w-80 xl:96" src="./assets/svg/1.svg">-->
+                <headSvg class="m-auto md:72 lg:w-80 xl:96"/>
               </div>
             </div>
             <div>
@@ -136,7 +139,7 @@
 
           <div class="my-16 relative">
             <h3 class="font-bold text-lg absolute text-white m-4">Digital Snowboarding</h3>
-            <img alt="Snowboarding animation Img converted to SVG" id="img" src="./assets/svg/1_000.svg"/>
+            <img alt="Snowboarding animation Img converted to SVG" id="img" src="/svg/1_000.svg" />
           </div>
         </section>
         <section id="contact" class="my-12">
@@ -160,61 +163,66 @@
   </div>
 </template>
 <script>
+
+import HeadSvg from './components/Head.vue';
 export default {
   name: "Main",
+  components: {
+    HeadSvg,
+  },
   data() {
     return {
       images: [
-        "./assets/svg/1_001.svg",
-        "./assets/svg/1_002.svg",
-        "./assets/svg/1_003.svg",
-        "./assets/svg/1_004.svg",
-        "./assets/svg/1_005.svg",
-        "./assets/svg/1_006.svg",
-        "./assets/svg/1_007.svg",
-        "./assets/svg/1_008.svg",
-        "./assets/svg/1_009.svg",
-        "./assets/svg/1_010.svg",
-        "./assets/svg/1_011.svg",
-        "./assets/svg/1_012.svg",
-        "./assets/svg/1_013.svg",
-        "./assets/svg/1_014.svg",
-        "./assets/svg/1_015.svg",
-        "./assets/svg/1_016.svg",
-        "./assets/svg/1_017.svg",
-        "./assets/svg/1_018.svg",
-        "./assets/svg/1_019.svg",
-        "./assets/svg/1_020.svg",
-        "./assets/svg/1_021.svg",
-        "./assets/svg/1_023.svg",
-        "./assets/svg/1_024.svg",
-        "./assets/svg/1_025.svg",
-        "./assets/svg/1_026.svg",
-        "./assets/svg/1_027.svg",
-        "./assets/svg/1_028.svg",
-        "./assets/svg/1_029.svg",
-        "./assets/svg/1_030.svg",
-        "./assets/svg/1_031.svg",
-        "./assets/svg/1_032.svg",
-        "./assets/svg/1_033.svg",
-        "./assets/svg/1_034.svg",
-        "./assets/svg/1_035.svg",
-        "./assets/svg/1_036.svg",
-        "./assets/svg/1_037.svg",
-        "./assets/svg/1_038.svg",
-        "./assets/svg/1_039.svg",
-        "./assets/svg/1_040.svg",
-        "./assets/svg/1_041.svg",
-        "./assets/svg/1_042.svg",
-        "./assets/svg/1_043.svg",
-        "./assets/svg/1_044.svg",
-        "./assets/svg/1_045.svg",
-        "./assets/svg/1_046.svg",
-        "./assets/svg/1_047.svg",
-        "./assets/svg/1_048.svg",
-        "./assets/svg/1_049.svg",
-        "./assets/svg/1_050.svg",
-        "./assets/svg/1_051.svg",
+        "/svg/1_001.svg",
+        "/svg/1_002.svg",
+        "/svg/1_003.svg",
+        "/svg/1_004.svg",
+        "/svg/1_005.svg",
+        "/svg/1_006.svg",
+        "/svg/1_007.svg",
+        "/svg/1_008.svg",
+        "/svg/1_009.svg",
+        "/svg/1_010.svg",
+        "/svg/1_011.svg",
+        "/svg/1_012.svg",
+        "/svg/1_013.svg",
+        "/svg/1_014.svg",
+        "/svg/1_015.svg",
+        "/svg/1_016.svg",
+        "/svg/1_017.svg",
+        "/svg/1_018.svg",
+        "/svg/1_019.svg",
+        "/svg/1_020.svg",
+        "/svg/1_021.svg",
+        "/svg/1_023.svg",
+        "/svg/1_024.svg",
+        "/svg/1_025.svg",
+        "/svg/1_026.svg",
+        "/svg/1_027.svg",
+        "/svg/1_028.svg",
+        "/svg/1_029.svg",
+        "/svg/1_030.svg",
+        "/svg/1_031.svg",
+        "/svg/1_032.svg",
+        "/svg/1_033.svg",
+        "/svg/1_034.svg",
+        "/svg/1_035.svg",
+        "/svg/1_036.svg",
+        "/svg/1_037.svg",
+        "/svg/1_038.svg",
+        "/svg/1_039.svg",
+        "/svg/1_040.svg",
+        "/svg/1_041.svg",
+        "/svg/1_042.svg",
+        "/svg/1_043.svg",
+        "/svg/1_044.svg",
+        "/svg/1_045.svg",
+        "/svg/1_046.svg",
+        "/svg/1_047.svg",
+        "/svg/1_048.svg",
+        "/svg/1_049.svg",
+        "/svg/1_050.svg",
+        "/svg/1_051.svg",
       ],
       x: 1,
     }
