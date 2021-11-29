@@ -61,7 +61,7 @@
               <p class="font-bold mb-2">
                 Meer over mij:
               </p>
-              <a target="_blank" class="px-6 py-2 text-black border border-black hover:text-white hover:bg-black " href="./assets/pdf/CV.pdf">
+              <a target="_blank" class="px-6 py-2 text-black border border-black hover:text-white hover:bg-black " href="/pdf/cv_gerben_op_den_kamp.pdf">
                 Curriculum vitae
               </a>
             </div>
