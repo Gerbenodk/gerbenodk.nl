@@ -1,0 +1,24 @@
+{
+    "head": {
+        "text": "Ik specialiseer me in zowel frontend- als backendtechnologieën, waaronder Laravel, VueJS en CSS, met een bewezen vermogen om gebruiksvriendelijke, schaalbare weboplossingen te leveren in diverse sectoren. Met een passie voor innovatie en een track record van succes richt ik me op het creëren van hoogwaardige, efficiënte en aantrekkelijke digitale ervaringen. Ik ben enthousiast om mijn expertise in te brengen in een dynamisch team dat creativiteit en innovatieve ontwikkeling waardeert.",
+        "more": "Meer over mij"
+    },
+    "projects": {
+        "title": "Projecten",
+        "mumster": {
+            "description": "Mumster is een platform dat zich richt op het bevorderen van duurzame mode en het stimuleren van positieve verandering in de sector. In samenwerking met een partner heb ik een responsieve, gebruiksvriendelijke website ontwikkeld die duurzame merken en initiatieven in de schijnwerpers zet. Door nauw samen te werken met een ontwerper en de klant hebben we een visueel aantrekkelijke en intuïtieve site gecreëerd die aansluit bij de missie van Mumster om bewuste modekeuzes te inspireren en een duurzamere toekomst te ondersteunen. Dit project toont onze toewijding aan zowel functionaliteit als impactvol ontwerp in de digitale ruimte."
+        },
+        "beyond": {
+            "description": "Beyond Selection is een innovatieve sollicitatietool die is ontworpen om het gehele sollicitatieproces voor bedrijven objectiever en gestroomlijnder te maken. Het helpt bedrijven de beste kandidaat voor een functie op de meest effectieve en eerlijke manier te vinden. De tool past CV-anonimisering toe in de eerste stap van het sollicitatieproces om (onbewuste) arbeidsdiscriminatie tegen te gaan. De focus ligt op het behoud van het menselijke aspect in de besluitvorming tijdens het wervingsproces. Ik heb de tool ontworpen met gebruiksgemak en aanpasbaarheid in gedachten."
+        },
+        "ippon": {
+            "description": "Na het succes van het eerste project kreeg ik de opdracht om het proces te repliceren voor het bedrijf achter KeK. De aanloop naar dit project was complex door de betrokkenheid van meerdere belanghebbenden. Naast het vernieuwen van de website was het cruciaal om bestaande structuren in kaart te brengen voor toekomstige automatisering en om integraties met interne systemen mogelijk te maken. Deze integraties stellen klanten in staat om real-time gegevensinzichten te verkrijgen en miljoenen gegevensrecords te verwerken. Het resultaat was een website met een krachtig onderliggend systeem, dat het bedrijf een platform biedt om zijn diensten en communicatie te tonen. Terwijl het bedrijf evolueert, doen ook de iteraties van het project dat."
+        },
+        "kek": {
+            "description": "Elke \"eerste\" blijft speciaal, daarom neem ik dit project op in mijn portfolio. Dit was mijn eerste opdracht als freelancer en een waardevolle leerervaring waarin ik de kennis die ik had opgedaan kon toepassen. Kant en Klaar Programma (KeK) is een dienst die inspeelt op het lerarentekort op basisscholen door thema dagen aan te bieden. Dit maakt het mogelijk om onderwijs op een andere manier te geven. Mijn taak was om de digitale aanwezigheid van KeK op te zetten. De eerste stap was om de unieke verkoopargumenten (USPs) en waardepropositie in kaart te brengen. Op basis hiervan heb ik een ontwerp gemaakt met behulp van de bestaande huisstijl. Door een iteratief proces leidde dit tot de ontwikkeling van een website. De website heeft een aantal jaar gedraaid en is momenteel geïntegreerd in het onderstaande project."
+        },
+        "ownhomepage": {
+            "description": "De reden voor het bouwen van 'OwnHomepage' was om handige links over verschillende apparaten te behouden. Ik had dit probleem tijdens het schakelen tussen mijn computer, laptop en mobiel. Om dit op te lossen, heb ik een webapplicatie ontwikkeld waar gebruikers hun eigen links kunnen beheren en bekijken. Om het project gebruiksvriendelijker en uitdagender te maken, hoeft de gebruiker alleen maar een nieuwe link toe te voegen en wordt er automatisch een icoon aan gekoppeld. Als het icoon niet herkend wordt, wordt de aanvraag opgeslagen en, op basis van populariteit, in een toekomstige update toegevoegd."
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "head": {
+        "text": "I specialize in both frontend and backend technologies, including Laravel, VueJS, and CSS, with a proven ability to deliver user-centric, scalable web solutions across diverse industries. With a passion for innovation and a track record of success, I’m focused on creating high-quality, efficient, and engaging digital experiences. I’m excited to bring my expertise to a dynamic team that values creativity and cutting-edge development.",
+        "more": "More about me"
+    },
+    "projects": {
+        "title": "Projects",
+        "mumster": {
+            "description": "Mumster is a platform dedicated to promoting eco-friendly fashion and driving positive change in the industry. In collaboration with a partner, I developed a responsive, user-friendly website that highlights sustainable brands and initiatives. Working closely with a designer and the client, we crafted a visually engaging and intuitive site that aligns with Mumster’s mission to inspire conscious fashion choices and support a more sustainable future. This project demonstrates our commitment to both functionality and impactful design in the digital space."
+        },
+        "beyond": {
+            "description": "Beyond Selection is an innovative recruitment tool designed to make the entire hiring process more objective and streamlined for companies. It helps businesses find the best candidate for a position in the most effective and fair way possible. The tool applies CV anonymization in the first step of the application process to combat (unconscious) hiring discrimination. The focus is on maintaining the human element in decision-making throughout the recruitment process. I designed the tool with ease of use and adaptability in mind."
+        },
+        "ippon": {
+            "description": "\nFollowing the success of the first project, I was commissioned to replicate the process for the company behind KeK. The lead-up to this project was complex due to the involvement of multiple stakeholders. Beyond redesigning the website, it was crucial to map out existing structures for future automation and to enable integrations with internal systems. These integrations allow for real-time data insights for their clients and the handling of millions of data records. The result was a website with a powerful underlying system, providing the company with a platform to showcase its services and communications. As the company evolves, so do the iterations of the project."
+        },
+        "kek": {
+            "description": "Every \"first\" remains special, which is why I’m including this project in my portfolio. This was my first assignment as a freelancer and a valuable learning experience where I applied the knowledge I had gained. Kant en Klaar Programma (KeK) is a service that addresses the teacher shortage in primary schools by offering themed days. This allows education to be delivered in a different way. My task was to establish KeK’s digital presence. The first step was to map out the unique selling points (USPs) and value proposition. Based on this, I created a design using the existing brand identity. Through an iterative process, this led to the development of a website. The website ran for several years and is currently integrated into the project listed below."
+        },
+        "ownhomepage": {
+            "description": "The reason for building ‘OwnHomepage’ was to retain useful links across different devices. I encountered this issue when switching between my computer, laptop, and mobile. To solve it, I developed a web application where users can manage and view their own links. To make the project more user-friendly and challenging, users only need to add a new link, and an icon is automatically assigned to it. If the icon is not recognized, the request is stored and, based on popularity, added in a future update."
+        }
+    }
+}

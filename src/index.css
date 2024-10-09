@@ -24,84 +24,8 @@ img:hover {
     filter: grayscale(0%);
 }
 
-.parallax {
-    -webkit-perspective: 100px;
-    perspective: 100px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.parallax > .parallax_img_3 {
-    opacity: 0.7;
-}
-
-.parallax_header {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.parallax_header img {
-    display: block;
-    position: absolute;
-    height: 600px;
-}
-
-.parallax_cover {
-    position: absolute;
-    top: 599px;
-    left: 0;
-    right: 0;
-    z-index: 3;
-}
-
 nav > ul > li:hover {
     color: #fff;
     background: #333;
     cursor:pointer;
-}
-
-
-.parallax_img_0 {
-    -webkit-transform: translateZ(-300px) scale(4);
-    transform: translateZ(-300px) scale(4);
-
-}
-
-.parallax_img_1 {
-    -webkit-transform: translateZ(-250px) scale(3.5);
-    transform: translateZ(-250px) scale(3.5);
-}
-
-.parallax_img_2 {
-    -webkit-transform: translateZ(-200px) scale(3);
-    transform: translateZ(-200px) scale(3);
-}
-
-.parallax_img_3 {
-    -webkit-transform: translateZ(-150px) scale(2.5);
-    transform: translateZ(-150px) scale(2.5);
-    position: relative !important;
-}
-
-.parallax_img_4 {
-    -webkit-transform: translateZ(-100px) scale(2);
-    transform: translateZ(-100px) scale(2);
-}
-
-.parallax_img_5 {
-    -webkit-transform: translateZ(-50px) scale(1.5);
-    transform: translateZ(-50px) scale(1.5);
-}
-
-.parallax_img_6 {
-    -webkit-transform: translateZ(0px) scale(1);
-    transform: translateZ(0px) scale(1);
 }
