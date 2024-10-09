@@ -1,8 +1,8 @@
 <template>
   <div class="parallax">
-    <div v-for="(parallax_item, index) in parallax_items" :key="index" class="parallax_header" :class="'parallax_img_' + index">
-      <img class="object-cover lg:object-fill w-full" :src="'/src/assets/img/' + parallax_item.filename" alt=""/>
-    </div>
+    <!--    <div v-for="(parallax_item, index) in parallax_items" :key="index" class="parallax_header" :class="'parallax_img_' + index">-->
+    <!--      <img class="object-cover lg:object-fill w-full" :src="'/src/assets/img/' + parallax_item.filename" alt=""/>-->
+    <!--    </div>-->
 
     <div class="parallax_header parallax_img_0">
       <img alt="parralax_img_7" class="object-cover lg:object-fill w-full" src="../assets/img/7.png"/>
